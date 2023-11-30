@@ -1,7 +1,7 @@
 import React from "react";
 function C(){  
 return (
- C
+<h1>C</h1>
 )
 }
 export default C;

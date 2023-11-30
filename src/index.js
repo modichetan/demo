@@ -30,12 +30,13 @@ root.render(
  <Cards></Cards> 
 <Looping2></Looping2>*/
 <>
-{
+
 <A>
-  <B></B>
-    <C></C>
+<B></B>
+  <C></C>
 </A>
-}
+
+
 </>
 );
 

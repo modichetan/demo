@@ -1,7 +1,7 @@
 import React from "react";
 function B(){  
 return (
-B
+<h1>B</h1>
 )
 }
 export default B;

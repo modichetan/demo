@@ -1,7 +1,7 @@
 import React from "react";
 function A(props){  
 return (
-    <>A
+    <><h1>A</h1>
  {props.children}</>
 )
 }
