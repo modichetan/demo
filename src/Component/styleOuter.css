@@ -8,7 +8,7 @@ margin-left: 120px;
     border-width: 2px;
     width:350px ;
     margin-right: 10px;
-    margin-top: 40px;
+    margin-top: 60px;
     text-align:"center";
     border-color: black;
     box-shadow:0 0 15px black;
@@ -36,4 +36,35 @@ margin-left: 120px;
 {width:350px;
 height:200px;
 object-fit:contain ;
-};
+}
+.category{
+    width: 290px;
+    height: 260px;
+border: solid 2px black;
+    float:left;
+     margin-right: 50px;
+     margin-top: 60px;
+     margin-left: 40px;
+     padding: 10px;
+     
+}
+.btns{
+    background-color: pink;
+    margin-bottom: 7px;
+}
+.head
+{
+    text-align: center;
+    background-color: rgb(172, 172, 208);
+    height: 40px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.searchbar{
+    margin-top: 20px;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-radius: 3px;
+}
