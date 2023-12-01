@@ -43,7 +43,7 @@ root.render(
 <Color></Color><Cards></Cards> <SearchBar></SearchBar>
 <Form2></Form2>*/
 <>
-<Cards2></Cards2>
+<Cards></Cards>
 </>
 );
 

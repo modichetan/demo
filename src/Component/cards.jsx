@@ -50,6 +50,7 @@ function Cards(){
                             </div>
                             <div className="stylePrice">price : {item.price}</div>
                           </div> }
+                          else return null;
                           
                         })
 }

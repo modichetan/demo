@@ -31,8 +31,7 @@ function Cards2(){
             brands.map((ele)=>{
                 return <li><button className="btns" onClick={()=>{
                     ar=arr.filter((item)=>{
-                        if(item.prodName==ele)
-                        return 1;
+                        return item.prodName==ele;
                     })
                 }} >{ele}</button></li>
             })
