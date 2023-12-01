@@ -18,7 +18,9 @@ import Cards from './Component/cards.jsx';
 //import Comp from './Component/Hooking.jsx';
 import Color from "./Component/Color.jsx"
 import SearchBar from './Component/SearchBar.jsx';
-
+import Form from './Component/Form.jsx';
+import Form2 from './Component/Forms2.jsx';
+import Cards2 from './Component/Cards2.jsx';
 let ar1=[{id:"1",name:"chetan"},{id:"2",name:"vignesh"},{id:"3",name:"utsav"}];
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,12 +39,11 @@ root.render(
   <C></C>
 </A>
 <Props arr={ar1}></Props> <Comp></Comp><Color></Color> 
-*/
-
+ 
+<Color></Color><Cards></Cards> <SearchBar></SearchBar>
+<Form2></Form2>*/
 <>
-{/* <Cards></Cards> */}
-<SearchBar></SearchBar>
-
+<Cards2></Cards2>
 </>
 );
 

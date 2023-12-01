@@ -48,14 +48,17 @@
          padding: 10px;
          
     }
+    .btns{
+        background-color: pink;
+        margin-bottom: 7px;
+    }
     .head
     {
         text-align: center;
-        background-color: rgb(15, 15, 15);
+        background-color: rgb(8, 8, 8);
         height: 40px;
         font-weight: bold;
         font-size: x-large;
-        color: white;
     }
     .searchbar{
         margin-top: 20px;
