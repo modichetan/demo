@@ -41,8 +41,8 @@ function Cards(){
 
 {
     
-                        arr.map((item,i)=>{
-                            if(item.prodName=brand){
+                        arr.map((item)=>{
+                            if(item.prodName==brand){
                             return <div className="styleContainer">
                                 <div className="styleProdname">Product Name : {item.prodName}</div>
                             <div>
@@ -50,7 +50,6 @@ function Cards(){
                             </div>
                             <div className="stylePrice">price : {item.price}</div>
                           </div> }
-                          else return null;
                           
                         })
 }

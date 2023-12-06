@@ -14,7 +14,7 @@ function Color(){
     let container={
         marginLeft:"350px",
         marginTop:"40px",
-        height:"4   00px",
+        height:"400px",
         width:"400px",
         padding:"50px",
         border:"solid",

@@ -1,0 +1,20 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 550px;
+    background-color: rgb(218, 247, 195);
+    border: solid;
+    padding: 10px;
+    border-radius: 3px;
+    height: 250px;
+    justify-content: space-around;
+}
+.submitbtn{
+    margin-top: 5px;
+}
+.spans{
+ font-size: 70%;
+ color: red;
+}

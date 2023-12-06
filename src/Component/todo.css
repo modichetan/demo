@@ -1,0 +1,72 @@
+.second{
+    display :flex;
+    justify-content: center;
+    background-color: black;
+    color: #ffffff;
+    height: 65px;
+    font-size: 55px;
+
+}
+.inputbox{
+    background-color: rgb(246, 239, 239);
+    height: 150px;
+    text-align: center;
+ 
+}
+.box{
+    width: 75%;
+    border-radius: 5px;
+    margin-top: 45px;
+    height: 35px;
+    
+}
+.container{
+   
+    margin-left: 170px;
+    margin-top: 15px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+.btn1{
+    color: white;
+    height: 30px;
+    width: 60px;
+background-color: green;
+border-radius: 5px;
+}
+.btn2{
+    color: white;
+    height: 30px;
+    width: 80px;
+background-color: red;
+border-radius: 5px;
+}
+.editdelete{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 3px;
+}
+.edit{
+    background-color: green;
+    border-radius: 3px;
+    height: 30px;
+    width: 50px;
+}
+.delete{
+    background-color: rgb(128, 0, 32);
+    border-radius: 3px;
+    height: 30px;
+    width: 50px;
+}
+.para{
+    border-style: solid;
+    border-color: rgb(206, 197, 197);
+    border-radius: 6px;
+}
+.styleProdname{
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 function Form2(){
     let [form,setForm]=useState({name:"",pass:"",email:"",confirm:"",course:"",feedback:""});
-    function commonHandler(e){
+    function commonHandler(e){ 
         let {name,value}=e.target;
         setForm((pre)=>{
             return {...pre,[name]:value};

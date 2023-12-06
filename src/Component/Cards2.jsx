@@ -33,6 +33,7 @@ function Cards2(){
                     ar=arr.filter((item)=>{
                         return item.prodName==ele;
                     })
+                    setArray(ar);
                 }} >{ele}</button></li>
             })
         }
