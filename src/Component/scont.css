@@ -1,0 +1,93 @@
+*{
+    background-color:silver;
+}
+.styleOuter{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+    }
+    .styleContainer{
+        border-style: solid;
+        border-width: 2px;
+        width:350px ;
+        margin-right: 10px;
+        margin-top: 20px;
+        text-align:"center";
+        border-color: black;
+        box-shadow:0 0 15px black;
+        height: 10%;
+    
+    }
+    .styleProdname{
+        border-style:solid;
+        border-width:1px;
+        border-color:yellow;
+        margin-top: 2px;
+        background-color:silver;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .stylePrice{
+        border-style:solid;
+        border-width:1px;
+    border-radius: 3px;
+    border-color: rgb(221, 221, 204);
+    box-shadow: 15px;
+        margin-top: 2px;
+        background-color:silver;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .styleImage
+    {width:350px;
+    height:200px;
+    object-fit:contain ;
+    }
+    .category{
+        width: 290px;
+        height: 260px;
+    border: solid 2px black;
+        float:left;
+         margin-right: 50px;
+         margin-top: 60px;
+         margin-left: 40px;
+         padding: 10px;
+         
+    }
+    .btns{
+        background-color: pink;
+        margin-bottom: 7px;
+        
+    }
+    .head
+    {
+        text-align: center;
+        background-color: rgb(8, 8, 8);
+        height: 40px;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .searchbar{
+        margin-top: 20px;
+        width: 400px;
+        height: 30px;
+        margin-bottom: 30px;
+        border-style: solid;
+        border-radius: 3px;
+    }
+    .box{
+        margin-left: 400px;
+    }
+    .addbtn{
+        border-radius: 3px;
+        height: 10%;
+        width: 60px;
+        padding: 2px;
+        text-align: center;
+
+    }
+    .btnss{
+        padding: 3px;
+        width: 30px;
+        margin: 5px;
+    }
