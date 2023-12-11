@@ -91,3 +91,12 @@
         width: 30px;
         margin: 5px;
     }
+    .inputsbox{
+        margin: 10px;
+        width: 50%;
+        height:25px;
+        border-radius: 3px;
+    }
+    .select{
+        margin: 10px;
+    }

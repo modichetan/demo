@@ -57,8 +57,8 @@ console.log(ar);
 
 return(<>
 <div className="box">
-<input type="text" onChange={inputHandler} />
-<span>Sort By</span>
+<input type="text" onChange={inputHandler} className="inputsbox"  placeholder="Search Product"/>
+<span className="select">Sort By  </span>
 <select onChange={selectHandler}>
 <option>
        Select

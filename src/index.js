@@ -7,6 +7,8 @@ import Cont from './Component/Cont.jsx';
 import Assignment from './Assignment.jsx';
 import Assignment2 from './Component/Assignment2.jsx';
 import Assignment3 from './Component/Assignment3.jsx';
+import Assignment4 from './Component/Assignment4.jsx';
+import Component1 from './Component/Reducer.jsx';
 let d={name:"Chetan"};
 
 let arr=[{id:1,prodName:"Nike",img:"https://5.imimg.com/data5/ANDROID/Default/2021/2/AE/ZM/MU/42692862/product-jpeg-500x500.jpg",price:7000},
@@ -28,10 +30,8 @@ export let contextData=createContext(1);
  const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
+<Component1></Component1>
 
-<contextData.Provider value={arr}>
-<Assignment3/>
- </contextData.Provider>
 
 );
 
@@ -43,6 +43,9 @@ reportWebVitals();
 <Asideb></Asideb>
 <Foots></Foots> 
 <Condition/>
+<contextData.Provider value={arr}>
+<Assignment4></Assignment4>
+ </contextData.Provider>
 <Practice></Practice> <looping></looping> 
 <Assignment2></Assignment2>
 <Looping2></Looping2>
